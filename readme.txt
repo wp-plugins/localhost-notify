@@ -2,7 +2,7 @@
 Contributors: netweblogic
 Tags: Tags: localhost, developers, local
 Requires at least: 2.7
-Tested up to: 2.8.2
+Tested up to: 2.8.5
 Stable tag: 1.0
 
 Developer plugin for those working off local server wordpress copies. Adds "local |" to your title if wordpress is running off a local server.
