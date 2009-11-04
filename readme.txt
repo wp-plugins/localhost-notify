@@ -1,5 +1,4 @@
 === Localhost Notify ===
-
 Contributors: netweblogic
 Tags: Tags: localhost, developers, local
 Requires at least: 2.7
@@ -14,13 +13,13 @@ This plugin is made for developers who work on local server copies of live wordp
 
 Working on a local copy of wordpress which runs of a local server is quite convenient. Major advantages include faster loading times and the ability to quickly and easily make changes mitigating the risk of bringing down a live site.
 
-If you redirect domains locally via your hosts file, a potential problem arises when switching back and forth between the local and live installation, because you may not be able to tell which website you're viewing. This plugin solves that by adding "local | " to page titles if wordpress is running off a local server. No more mixups!
-
 Plugin is compatible with Wordpress, Wordpress MU (WPMU) , and BuddyPress.
 
-If you find this plugin useful and would like to donate something, all we ask is you please add a link on your site to the plugin page on our blog or digg our plugin page [http://netweblogic.com/wordpress/plugins/localhost-notify/](http://netweblogic.com/wordpress/plugins/localhost-notify/) thanks!
+If you have any problems with the plugins, please visit our [http://netweblogic.com/forums/](support forums) for further information and provide some feedback first, we may be able to help. It's considered rude to just give low ratings and nothing reason for doing so.
 
-''Points To Consider''
+If you find this plugin useful and would like to say thanks, a link, digg, or some other form of recognition to the plugin page on our blog would be appreciated.
+
+== Notes ==
 
 Some themes may not change if the title tag doesn't use the wp_title or bloginfo functions.
 

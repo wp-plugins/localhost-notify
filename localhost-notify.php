@@ -8,7 +8,7 @@ Version: 1.0
 Author URI: http://netweblogic.com/
 Tags: localhost, developers, local
 
-Copyright (C) 2009 NetWebLogic LLC
+Copyright (C) 2008 NetWebLogic LLC
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
