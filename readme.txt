@@ -1,4 +1,4 @@
-=== Localhost Notify ===
+=== Localhost Notifier ===
 Contributors: netweblogic
 Tags: Tags: localhost, developers, local
 Requires at least: 2.7
