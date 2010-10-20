@@ -27,8 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 function localhost_notify($title='', $show=''){		
 	if($_SERVER['SERVER_ADDR']=='127.0.0.1' && in_array($show, array('','name', 'blogname'))){
 		return "local | ".$title;
-	}
-	return $title;
+	}else{
+    return $title;
+  }
 }
 add_filter('wp_title', 'localhost_notify');
 add_filter('bp_page_title', 'localhost_notify');
