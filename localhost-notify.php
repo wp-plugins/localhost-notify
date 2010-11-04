@@ -4,7 +4,7 @@ Plugin Name: Localhost Notify
 Plugin URI: http://netweblogic.com/wordpress/plugins/localhost-notify/
 Description: Simple plugin for developers. Adds "local |" to the start of page titles if you're working on a local WP copy.
 Author: NetWebLogic
-Version: 1.0
+Version: 1.1
 Author URI: http://netweblogic.com/
 Tags: localhost, developers, local
 
@@ -27,9 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 function localhost_notify($title='', $show=''){		
 	if($_SERVER['SERVER_ADDR']=='127.0.0.1' && in_array($show, array('','name', 'blogname'))){
 		return "local | ".$title;
-	}else{
-    return $title;
-  }
+	}
+	return $title;
 }
 add_filter('wp_title', 'localhost_notify');
 add_filter('bp_page_title', 'localhost_notify');
