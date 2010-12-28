@@ -1,8 +1,9 @@
-=== Localhost Notifier ===
+=== Localhost Notify ===
 Contributors: netweblogic
+Donate link: http://netweblogic.com
 Tags: Tags: localhost, developers, local
 Requires at least: 2.7
-Tested up to: 2.8.5
+Tested up to: 3.0.3
 Stable tag: 1.0
 
 Developer plugin for those working off local server wordpress copies. Adds "local |" to your title if wordpress is running off a local server.
@@ -15,7 +16,7 @@ Working on a local copy of wordpress which runs of a local server is quite conve
 
 Plugin is compatible with Wordpress, Wordpress MU (WPMU) , and BuddyPress.
 
-If you have any problems with the plugins, please visit our [http://netweblogic.com/forums/](support forums) for further information and provide some feedback first, we may be able to help. It's considered rude to just give low ratings and nothing reason for doing so.
+If you have any problems with the plugins, please visit our [http://netweblogic.com/forums/](support forums) for further information and provide some feedback first, we may be able to help. It's considered rude to just give low ratings and no reason for doing so.
 
 If you find this plugin useful and would like to say thanks, a link, digg, or some other form of recognition to the plugin page on our blog would be appreciated.
 
